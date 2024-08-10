@@ -1,0 +1,20 @@
+{
+  "name": "js_algo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsnode": "ts-node",
+    "test:bubble_sort": "vitest run ./src/test/sort.test.ts",
+    "test:linked_list": "vitest run ./src/test/linked_list.test.ts",
+    "test:double_linked_list": "vitest run ./src/test/double_linked_list.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
