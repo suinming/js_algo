@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from "vitest";
-import { BSTree } from "../tree/bstree";
+import { BSTree } from "../tree/bstree/bstree";
 
 describe("BSTree", () => {
   let bst: BSTree;

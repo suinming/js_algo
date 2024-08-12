@@ -1,1 +1,1 @@
-/* copy from the template file */
+/* copy template */
