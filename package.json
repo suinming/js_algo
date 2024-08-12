@@ -7,7 +7,9 @@
     "tsnode": "ts-node",
     "test:bubble_sort": "vitest run ./src/test/sort.test.ts",
     "test:linked_list": "vitest run ./src/test/linked_list.test.ts",
-    "test:double_linked_list": "vitest run ./src/test/double_linked_list.test.ts"
+    "test:double_linked_list": "vitest run ./src/test/double_linked_list.test.ts",
+    "test:bstree": "vitest run ./src/test/bstree.test.ts",
+    "test:hash_table": "vitest run ./src/test/hash_table.test.ts"
   },
   "keywords": [],
   "author": "",
