@@ -1,4 +1,4 @@
-export const bubbleSort = (a: number[]) => {
+export const bubbleSort = (a: number[]): number[] => {
   const len = a.length;
   if (len > 0) {
     /* if there are no swap in first loop (i = len - 1)

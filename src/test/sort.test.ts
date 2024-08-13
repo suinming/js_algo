@@ -1,5 +1,10 @@
 import { expect, test } from "vitest";
-import { bubbleSort as testFn } from "../sort/bubble_sort/bubble_sort";
+import { quickSort as testFn } from "../sort/quick_sort/quick_sort";
+/* import { heapSort as testFn } from "../sort/heap_sort/heap_sort"; */
+/* import { mergeSort as testFn } from "../sort/merge_sort/merge_sort"; */
+/* import { selectSort as testFn } from "../sort/select_sort/select_sort"; */
+/* import { insertSort as testFn } from "../sort/insert_sort/insert_sort"; */
+/* import { bubbleSort as testFn } from "../sort/bubble_sort/bubble_sort"; */
 
 test("sort empty array", () => {
   expect(testFn([])).toEqual([]);
@@ -40,7 +45,6 @@ test("sort array with floating point numbers", () => {
 });
 
 test("sort large array", () => {
-  /* generate large array */
   const largeArr = [];
   const size = 10000;
   const max = 10000;
